@@ -23,8 +23,8 @@
             class="js-nav absolute inset-x-0 top-0 mx-auto hidden h-full min-h-screen w-full flex-col space-y-5 overflow-auto bg-white py-10 pb-24 text-center text-sm font-light lg:relative lg:top-0 lg:flex lg:h-auto lg:min-h-0 lg:flex-row lg:items-center lg:justify-end lg:space-x-5 lg:space-y-0 lg:py-0 lg:text-right"
           >
             <a class="hover:text-orange-600" href="#omnie">O mnie</a>
-            <a class="hover:text-orange-600" id="js-offer" href="#oferta">Oferta</a>
-            <a class="hover:text-orange-600" href="zespol.html">Galeria</a>
+            <a class="hover:text-orange-600" href="#oferta">Oferta</a>
+            <a class="hover:text-orange-600" href="#galeria">Galeria</a>
             <a class="hover:text-orange-600" href="#kontakt">Kontakt</a>
           </div>
           <button class="js-nav-btn z-10 cursor-pointer lg:hidden">
@@ -63,7 +63,7 @@
         <p class="py-8 text-xl text-white lg:text-3xl">Projektowanie wnętrz</p>
         <a
           href="umow-wizyte.html"
-          class="rounded-xl bg-accent px-4 py-2 text-lg text-white transition duration-200 hover:bg-orange-500"
+          class="rounded-xl bg-accent px-4 py-2 text-lg text-white transition duration-200 hover:bg-gray-500"
         >
           Oferta
         </a>
@@ -72,7 +72,7 @@
 
     <section class="relative py-32" id="omnie">
       <div class="container mx-auto px-4">
-        <h2 class="mb-12 text-center text-4xl text-accent">1. O mnie</h2>
+        <h2 class="mb-12 text-center text-4xl italic text-accent">1. O mnie</h2>
         <div class="mx-auto max-w-2xl">
           <div class="mb-8">
             <img loading="lazy" class="mx-auto max-w-xs p-2" src="assets/imgs/omnie.png" alt="O mnie" />
@@ -97,15 +97,55 @@
       <div class="absolute left-1/2 top-0 h-[120px] w-[1px] -translate-x-1/2 bg-accent"></div>
     </section>
 
-    <section class="bg-primary py-32 text-white" id="opinie">
+    <section class="relative py-32" id="oferta">
       <div class="container mx-auto px-4">
-        <h2 class="mb-10 text-center text-5xl">Opinie naszych pacjentów</h2>
-        <p class="mx-auto max-w-5xl pb-8 text-center text-white">
-          Każda opinia to nie tylko potwierdzenie naszych osiągnięć, ale także cenna wskazówka, jak możemy dalej
-          rozwijać nasze usługi, aby jeszcze lepiej odpowiadać na potrzeby naszych klientów. W enobo, sukces naszych
-          klientów jest naszym sukcesem, a ich pozytywne doświadczenia motywują nas do ciągłego doskonalenia i
-          innowacji.
-        </p>
+        <h2 class="mb-12 text-center text-4xl italic text-accent">2. Oferta</h2>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-xl bg-white p-8 shadow-lg">
+            <img class="h-32 pb-4" src="assets/imgs/1.png" alt="icon" />
+            <h3 class="mb-4 text-2xl font-semibold text-accent">Projekt koncepcyjny</h3>
+            <p class="flex-1 text-lg text-stone-700">
+              Opcja obejmuje przygotowanie układu funkcjonalnego z wymiarami oraz wizualizacje 3D, które pozwalają
+              zobaczyć przestrzeń przed realizacją. Dzięki temu możesz lepiej wyobrazić sobie efekt końcowy projektu.
+            </p>
+          </div>
+          <div class="rounded-xl bg-white p-8 shadow-lg">
+            <img class="h-32 pb-4" src="assets/imgs/2.png" alt="icon" />
+            <h3 class="mb-4 text-2xl font-semibold text-accent">Projekt kompleksowy</h3>
+            <p class="flex-1 text-lg text-stone-700">
+              W tej opcji otrzymujesz układ funkcjonalny, wizualizacje 3D oraz dokumentację projektową, w tym plan
+              punktów świetlnych i elektrycznych oraz listę wyposażenia z adresami i linkami do sklepów.
+            </p>
+          </div>
+          <div class="rounded-xl bg-white p-8 shadow-lg">
+            <img class="h-32 pb-4" src="assets/imgs/3.png" alt="icon" />
+            <h3 class="mb-4 text-2xl font-semibold text-accent">Projekt z nadzorem</h3>
+            <p class="flex-1 text-lg text-stone-700">
+              Po przygotowaniu układu funkcjonalnego, wizualizacji i dokumentacji projektowej, oferuję nadzór nad
+              przebiegiem prac wykończeniowych, dbając o zgodność realizacji z projektem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="absolute left-1/2 top-0 h-[120px] w-[1px] -translate-x-1/2 bg-accent"></div>
+    </section>
+
+    <section class="relative py-32" id="galeria">
+      <div class="container mx-auto px-4">
+        <h2 class="mb-12 text-center text-4xl italic text-accent">3. Galeria</h2>
+        <div class="grid gap-8 md:grid-cols-2">
+          <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
+          <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
+          <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
+          <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
+        </div>
+      </div>
+      <div class="absolute left-1/2 top-0 h-[120px] w-[1px] -translate-x-1/2 bg-accent"></div>
+    </section>
+
+    <section class="bg-accent py-32 text-white" id="opinie">
+      <div class="container mx-auto px-4">
+        <h2 class="mb-10 text-center text-4xl italic">4. Opinie moich klientów</h2>
         <div class="pt-10 md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-4">
           <div class="my-4 rounded-lg bg-white p-8 md:my-0">
             <div class="flex gap-1">
@@ -140,13 +180,12 @@
                 ></path>
               </svg>
             </div>
-            <h3 class="py-2 text-primary">Zuzanna Kołnierzak</h3>
+            <h3 class="py-2 text-primary">Julia Liszkowska</h3>
             <p>
-              Miejsce stworzone z sercem i autentyczną chęcią pomocy. Można tu poczuć się bardzo bezpiecznie i
-              swobodnie. Cała gama specjalistów, pomagają w bardzo różnych kwestiach.
+              Współpraca z Panią Renatą przebiegła świetnie – miałyśmy bardzo dobry kontakt, a każdy detal został
+              dopracowany zgodnie z moimi oczekiwaniami. Polecam:)
             </p>
           </div>
-
           <div class="my-4 rounded-lg bg-white p-8 md:my-0">
             <div class="flex gap-1">
               <svg width="17" height="17" viewBox="0 0 1792 1792">
@@ -180,13 +219,12 @@
                 ></path>
               </svg>
             </div>
-            <h3 class="py-2 text-primary">Klaudia Wyszyńska</h3>
+            <h3 class="py-2 text-primary">Julia Liszkowska</h3>
             <p>
-              Miejsce, które zapewnia wielowymiarową opiekę dla całej rodziny. Wyspecjalizowany zespół, przytulne
-              wnętrza gabinetów, świetna komunikacja z pacjentem. Polecam serdecznie!
+              Współpraca z Panią Renatą przebiegła świetnie – miałyśmy bardzo dobry kontakt, a każdy detal został
+              dopracowany zgodnie z moimi oczekiwaniami. Polecam:)
             </p>
           </div>
-
           <div class="my-4 rounded-lg bg-white p-8 md:my-0">
             <div class="flex gap-1">
               <svg width="17" height="17" viewBox="0 0 1792 1792">
@@ -220,13 +258,12 @@
                 ></path>
               </svg>
             </div>
-            <h3 class="py-2 text-primary">Paulina Pawlak</h3>
+            <h3 class="py-2 text-primary">Julia Liszkowska</h3>
             <p>
-              Zespół profesjonalistów wykładających całe serce w swoją prace. Trafna diagnoza i dobrze dobrana terapia
-              zapewnia opiekę całej mojej rodzinie.
+              Współpraca z Panią Renatą przebiegła świetnie – miałyśmy bardzo dobry kontakt, a każdy detal został
+              dopracowany zgodnie z moimi oczekiwaniami. Polecam:)
             </p>
           </div>
-
           <div class="my-4 rounded-lg bg-white p-8 md:my-0">
             <div class="flex gap-1">
               <svg width="17" height="17" viewBox="0 0 1792 1792">
@@ -260,166 +297,18 @@
                 ></path>
               </svg>
             </div>
-            <h3 class="py-2 text-primary">Michal</h3>
+            <h3 class="py-2 text-primary">Julia Liszkowska</h3>
             <p>
-              As a non-native speaker, I'm very glad to have found a specialist with whom I can communicate in English.
-              Highly recommended!
+              Współpraca z Panią Renatą przebiegła świetnie – miałyśmy bardzo dobry kontakt, a każdy detal został
+              dopracowany zgodnie z moimi oczekiwaniami. Polecam:)
             </p>
-          </div>
-
-          <div class="my-4 rounded-lg bg-white p-8 md:my-0">
-            <div class="flex gap-1">
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="py-2 text-primary">Adam Morawski</h3>
-            <p>Przyjemna atmosfera i bardzo profesjonale podejscie - polecam!</p>
-          </div>
-
-          <div class="my-4 rounded-lg bg-white p-8 md:my-0">
-            <div class="flex gap-1">
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="py-2 text-primary">Monika Wojtkowska</h3>
-            <p>Polecam miejsce, bardzo dobrzy specjaliści</p>
-          </div>
-
-          <div class="my-4 rounded-lg bg-white p-8 md:my-0">
-            <div class="flex gap-1">
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="py-2 text-primary">Natalia Składowska</h3>
-            <p>Świetna pomoc psychologiczna. Polecam z całego serca! 🩷</p>
-          </div>
-
-          <div class="my-4 rounded-lg bg-white p-8 md:my-0">
-            <div class="flex gap-1">
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-              <svg width="17" height="17" viewBox="0 0 1792 1792">
-                <path
-                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
-                  fill="#fb8e28"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="py-2 text-primary">Przemysław Banasiuk</h3>
-            <p>Profesjonalna pomoc psychologiczna, polecam</p>
           </div>
         </div>
         <div class="flex justify-center gap-5 pt-14">
           <a
-            href="#"
+            href="https://www.oferteo.pl/ami-interior-projektowanie-wnetrz-renata-olejniczak/opinie/2914432"
             target="_blank"
-            class="w-72 rounded-xl bg-accent px-4 py-1 text-center text-lg text-white transition duration-200 hover:bg-orange-500 hover:underline"
+            class="w-72 rounded-xl bg-accent px-4 py-1 text-center text-lg text-white transition duration-200 hover:bg-gray-900 hover:underline"
           >
             Zobacz wszystkie opinie
           </a>
@@ -427,38 +316,26 @@
       </div>
     </section>
 
-    <section class="bg-accent py-32" id="kontakt">
-      <div class="container mx-auto px-4">
-        <h2 class="mb-10 text-center text-5xl text-white">Kontakt</h2>
-        <div class="lg:grid lg:grid-cols-2 lg:gap-10">
-          <div class="text-xl text-white">
-            <h3 class="mb-2 text-white"><strong>Poradnia psychologiczno pedagogiczna Kroki Razem</strong></h3>
-            <p class="mb-2 text-white">Ul. Żeromskiego 4/50</p>
-            <p class="mb-2 text-white">Warszawa</p>
-            <p class="mb-2 text-white">NIP: 1182098033</p>
-          </div>
-          <div class="text-xl text-white">
-            <p class="mb-2 text-white">
-              Tel: <strong><a href="tel: 606285998">606 285 998</a></strong>
-            </p>
-            <p class="mb-6 text-white">
-              Email: <strong><a href="mailto:kontakt@krokirazem.pl">kontakt@krokirazem.pl</a></strong>
-            </p>
-          </div>
+    <section class="relative py-32" id="kontakt">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="mb-12 text-4xl italic text-accent">5. Kontakt</h2>
+        <p class="mb-2 text-xl">
+          Tel: <strong><a href="tel: 601710444">601 710 444</a></strong>
+        </p>
+        <p class="mb-6 text-xl">
+          Email: <strong><a href="mailto:amiinterior@amiinterior.pl">amiinterior@amiinterior.pl</a></strong>
+        </p>
+        <div class="flex items-center justify-center gap-4">
+          <a href="https://www.instagram.com/amiinterior_/" target="_blank" aria-label="Instagram">
+            <img src="assets/imgs/instagram.png" alt="Instagram" class="h-8 w-8" />
+          </a>
+          <a href="https://www.facebook.com/AmiInterior/?ref=aymt_homepage_panel" target="_blank" aria-label="Facebook">
+            <img src="assets/imgs/facebook.png" alt="Facebook" class="h-9 w-9" />
+          </a>
         </div>
       </div>
+      <div class="absolute left-1/2 top-0 h-[120px] w-[1px] -translate-x-1/2 bg-accent"></div>
     </section>
-
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4732.365144098349!2d20.954348957117528!3d52.276965345031066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbc5f263ec5f%3A0x2f78803a5b192259!2sStefana%20%C5%BBeromskiego%204%2C%2001-861%20Warszawa!5e0!3m2!1sen!2spl!4v1718882217585!5m2!1sen!2spl"
-      width="100%"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      title="map"
-    ></iframe>
 
     <footer class="py-6">
       <div class="container mx-auto px-4">
