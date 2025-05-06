@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="font-main">
@@ -25,6 +28,7 @@
             <a class="hover:text-orange-600" href="#omnie">O mnie</a>
             <a class="hover:text-orange-600" href="#oferta">Oferta</a>
             <a class="hover:text-orange-600" href="#galeria">Galeria</a>
+            <a class="hover:text-orange-600" href="#opinie">Opinie</a>
             <a class="hover:text-orange-600" href="#kontakt">Kontakt</a>
           </div>
           <button class="js-nav-btn z-10 cursor-pointer lg:hidden">
@@ -54,15 +58,17 @@
       </div>
     </nav>
 
-    <header class="relative flex h-screen items-center" id="hero">
-      <img src="assets/imgs/hero-bg-v2.jpg" alt="Hero Image" class="absolute inset-0 h-full w-full object-cover" />
-      <div class="container z-10 mx-auto bg-gray-800 bg-opacity-30 px-4 py-20 text-center">
+    <header
+      class="relative flex h-screen items-center bg-[url('../../assets/imgs/hero-bg-v2.jpg')] bg-cover bg-fixed bg-center bg-no-repeat"
+      id="hero"
+    >
+      <div class="container z-10 mx-auto bg-gray-800 bg-opacity-50 px-4 py-20 text-center">
         <h1 class="text-xl lg:text-5xl">
           <span class="text-5xl text-white lg:text-6xl">AMI INTERIOR</span>
         </h1>
         <p class="py-8 text-xl text-white lg:text-3xl">Projektowanie wnętrz</p>
         <a
-          href="umow-wizyte.html"
+          href="#oferta"
           class="rounded-xl bg-accent px-4 py-2 text-lg text-white transition duration-200 hover:bg-gray-500"
         >
           Oferta
@@ -72,7 +78,7 @@
 
     <section class="relative py-32" id="omnie">
       <div class="container mx-auto px-4">
-        <h2 class="mb-12 text-center text-4xl italic text-accent">1. O mnie</h2>
+        <h2 class="mb-12 text-center text-4xl italic text-accent">O mnie</h2>
         <div class="mx-auto max-w-2xl">
           <div class="mb-8">
             <img loading="lazy" class="mx-auto max-w-xs p-2" src="assets/imgs/omnie.png" alt="O mnie" />
@@ -99,7 +105,7 @@
 
     <section class="relative py-32" id="oferta">
       <div class="container mx-auto px-4">
-        <h2 class="mb-12 text-center text-4xl italic text-accent">2. Oferta</h2>
+        <h2 class="mb-12 text-center text-4xl italic text-accent">Oferta</h2>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div class="rounded-xl bg-white p-8 shadow-lg">
             <img class="h-32 pb-4" src="assets/imgs/1.png" alt="icon" />
@@ -132,7 +138,7 @@
 
     <section class="relative py-32" id="galeria">
       <div class="container mx-auto px-4">
-        <h2 class="mb-12 text-center text-4xl italic text-accent">3. Galeria</h2>
+        <h2 class="mb-12 text-center text-4xl italic text-accent">Galeria</h2>
         <div class="grid gap-8 md:grid-cols-2">
           <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
           <img src="assets/imgs/portfolio/1.jpg" alt="galeria" />
@@ -145,8 +151,47 @@
 
     <section class="bg-accent py-32 text-white" id="opinie">
       <div class="container mx-auto px-4">
-        <h2 class="mb-10 text-center text-4xl italic">4. Opinie moich klientów</h2>
+        <h2 class="mb-12 text-center text-4xl italic">Opinie</h2>
         <div class="pt-10 md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-4">
+          <div class="my-4 rounded-lg bg-white p-8 md:my-0">
+            <div class="flex gap-1">
+              <svg width="17" height="17" viewBox="0 0 1792 1792">
+                <path
+                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
+                  fill="#fb8e28"
+                ></path>
+              </svg>
+              <svg width="17" height="17" viewBox="0 0 1792 1792">
+                <path
+                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
+                  fill="#fb8e28"
+                ></path>
+              </svg>
+              <svg width="17" height="17" viewBox="0 0 1792 1792">
+                <path
+                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
+                  fill="#fb8e28"
+                ></path>
+              </svg>
+              <svg width="17" height="17" viewBox="0 0 1792 1792">
+                <path
+                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
+                  fill="#fb8e28"
+                ></path>
+              </svg>
+              <svg width="17" height="17" viewBox="0 0 1792 1792">
+                <path
+                  d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"
+                  fill="#fb8e28"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="py-2 text-primary">Julia Liszkowska</h3>
+            <p>
+              Współpraca z Panią Renatą przebiegła świetnie – miałyśmy bardzo dobry kontakt, a każdy detal został
+              dopracowany zgodnie z moimi oczekiwaniami. Polecam:)
+            </p>
+          </div>
           <div class="my-4 rounded-lg bg-white p-8 md:my-0">
             <div class="flex gap-1">
               <svg width="17" height="17" viewBox="0 0 1792 1792">
@@ -318,7 +363,7 @@
 
     <section class="relative py-32" id="kontakt">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="mb-12 text-4xl italic text-accent">5. Kontakt</h2>
+        <h2 class="mb-12 text-4xl italic text-accent">Kontakt</h2>
         <p class="mb-2 text-xl">
           Tel: <strong><a href="tel: 601710444">601 710 444</a></strong>
         </p>
@@ -341,7 +386,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col items-end justify-between md:flex-row">
           <p class="text-xs md:text-sm">
-            Copyright ©<span class="text-xs md:text-sm" id="year"></span> AMI INTERIOR. All Rights Reserved.
+            Copyright © <span class="text-xs md:text-sm" id="year"></span> AMI INTERIOR. All Rights Reserved.
           </p>
           <p>
             <a class="text-xs md:text-sm" href="https://krzysztofd.netlify.app/" target="_blank">

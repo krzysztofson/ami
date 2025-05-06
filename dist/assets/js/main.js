@@ -40,8 +40,8 @@ if (mobileNavBtns) {
   });
 }
 
-// const year = new Date().getFullYear();
-// document.querySelector("#year").textContent = year;
+const year = new Date().getFullYear();
+document.querySelector("#year").textContent = year;
 
 // const navOffer = document.querySelector("#js-offer");
 // if (navOffer) {

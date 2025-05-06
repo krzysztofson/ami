@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         main: ["Poppins", "sans-serif"],
-        heading: ["Playfair Display", "serif"],
+        heading: ["Raleway", "serif"],
       },
       colors: {
         primary: "#3c6ca8",
