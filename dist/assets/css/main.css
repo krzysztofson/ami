@@ -572,6 +572,9 @@ tr:hover {
 .relative {
   position: relative;
 }
+.inset-0 {
+  inset: 0px;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -652,6 +655,10 @@ tr:hover {
 }
 .h-screen {
   height: 100vh;
+}
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -744,8 +751,18 @@ tr:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/imgs\/hero-bg-v2\.jpg\'\)\] {
   background-image: url('../../assets/imgs/hero-bg-v2.jpg');
@@ -819,11 +836,11 @@ tr:hover {
 .text-center {
   text-align: center;
 }
-.text-justify {
-  text-align: justify;
-}
 .font-main {
   font-family: Poppins, sans-serif;
+}
+.font-heading {
+  font-family: Raleway, serif;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -853,6 +870,14 @@ tr:hover {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
 .font-light {
   font-weight: 300;
 }
@@ -867,6 +892,9 @@ tr:hover {
 }
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+.tracking-\[0\.2em\] {
+  letter-spacing: 0.2em;
 }
 .text-accent {
   --tw-text-opacity: 1;
@@ -887,6 +915,9 @@ tr:hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.opacity-0 {
+  opacity: 0;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -910,8 +941,16 @@ tr:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .duration-200 {
   transition-duration: 200ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
 }
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
@@ -923,6 +962,9 @@ tr:hover {
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+.hover\:opacity-100:hover {
+  opacity: 1;
 }
 @media (min-width: 768px) {
   .md\:my-0 {
@@ -947,6 +989,10 @@ tr:hover {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 @media (min-width: 1024px) {
@@ -1021,5 +1067,13 @@ tr:hover {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
