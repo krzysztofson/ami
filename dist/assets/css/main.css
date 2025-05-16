@@ -650,15 +650,15 @@ tr:hover {
 .h-\[120px\] {
   height: 120px;
 }
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
 .h-full {
   height: 100%;
 }
 .h-screen {
   height: 100vh;
-}
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -739,6 +739,10 @@ tr:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 63 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -751,15 +755,8 @@ tr:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
-}
-.bg-opacity-80 {
-  --tw-bg-opacity: 0.8;
 }
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
@@ -836,11 +833,11 @@ tr:hover {
 .text-center {
   text-align: center;
 }
-.font-main {
-  font-family: Poppins, sans-serif;
-}
 .font-heading {
   font-family: Raleway, serif;
+}
+.font-main {
+  font-family: Poppins, sans-serif;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -850,9 +847,9 @@ tr:hover {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -870,19 +867,14 @@ tr:hover {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
 .font-light {
   font-weight: 300;
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-extralight {
+  font-weight: 200;
 }
 .uppercase {
   text-transform: uppercase;
@@ -890,11 +882,11 @@ tr:hover {
 .italic {
   font-style: italic;
 }
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
 .tracking-\[0\.2em\] {
   letter-spacing: 0.2em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 .text-accent {
   --tw-text-opacity: 1;
@@ -986,13 +978,13 @@ tr:hover {
   .md\:gap-10 {
     gap: 2.5rem;
   }
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 @media (min-width: 1024px) {
@@ -1056,12 +1048,8 @@ tr:hover {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-  .lg\:text-6xl {
-    font-size: 3.75rem;
+  .lg\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
   .lg\:text-xl {
@@ -1070,10 +1058,6 @@ tr:hover {
   }
   .lg\:text-7xl {
     font-size: 4.5rem;
-    line-height: 1;
-  }
-  .lg\:text-8xl {
-    font-size: 6rem;
     line-height: 1;
   }
 }
