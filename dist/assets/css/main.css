@@ -833,6 +833,9 @@ tr:hover {
 .text-center {
   text-align: center;
 }
+.text-justify {
+  text-align: justify;
+}
 .font-heading {
   font-family: Raleway, serif;
 }
@@ -873,9 +876,6 @@ tr:hover {
 .font-semibold {
   font-weight: 600;
 }
-.font-extralight {
-  font-weight: 200;
-}
 .uppercase {
   text-transform: uppercase;
 }
@@ -907,6 +907,12 @@ tr:hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.no-underline {
+  text-decoration-line: none;
+}
+.decoration-0 {
+  text-decoration-thickness: 0px;
 }
 .opacity-0 {
   opacity: 0;
@@ -955,6 +961,9 @@ tr:hover {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+.hover\:no-underline:hover {
+  text-decoration-line: none;
+}
 .hover\:opacity-100:hover {
   opacity: 1;
 }
@@ -968,9 +977,6 @@ tr:hover {
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .md\:flex-row {
     flex-direction: row;
@@ -1048,16 +1054,12 @@ tr:hover {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
-  .lg\:text-8xl {
-    font-size: 6rem;
+  .lg\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 }
