@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       fontFamily: {
         main: ["Poppins", "sans-serif"],
-        heading: ["Raleway", "serif"],
+        heading: ["Qwitcher Grypen", "serif"],
+        company: ["Urbanist", "cursive"],
       },
       colors: {
         primary: "#3c6ca8",

@@ -446,7 +446,7 @@ h1,
 h2,
 h3 {
   line-height: 2;
-  font-family: Raleway, serif;
+  font-family: Qwitcher Grypen, serif;
 }
 p,
 span,
@@ -833,14 +833,14 @@ tr:hover {
 .text-center {
   text-align: center;
 }
-.text-justify {
-  text-align: justify;
-}
 .font-heading {
-  font-family: Raleway, serif;
+  font-family: Qwitcher Grypen, serif;
 }
 .font-main {
   font-family: Poppins, sans-serif;
+}
+.font-company {
+  font-family: Urbanist, cursive;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -869,6 +869,10 @@ tr:hover {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 .font-light {
   font-weight: 300;
@@ -907,12 +911,6 @@ tr:hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.no-underline {
-  text-decoration-line: none;
-}
-.decoration-0 {
-  text-decoration-thickness: 0px;
 }
 .opacity-0 {
   opacity: 0;
