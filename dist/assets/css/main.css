@@ -678,6 +678,9 @@ tr:hover {
 .w-full {
   width: 100%;
 }
+.w-80 {
+  width: 20rem;
+}
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -836,11 +839,19 @@ tr:hover {
 .font-company {
   font-family: Urbanist, cursive;
 }
+.font-heading {
+  font-family: Qwitcher Grypen, serif;
+}
 .font-main {
   font-family: Poppins, sans-serif;
 }
-.font-heading {
-  font-family: Qwitcher Grypen, serif;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-4xl {
   font-size: 2.25rem;
@@ -866,13 +877,9 @@ tr:hover {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .font-light {
   font-weight: 300;
