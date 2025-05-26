@@ -603,6 +603,9 @@ tr:hover {
 .z-20 {
   z-index: 20;
 }
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -663,11 +666,11 @@ tr:hover {
 .min-h-screen {
   min-height: 100vh;
 }
-.w-72 {
-  width: 18rem;
-}
 .w-8 {
   width: 2rem;
+}
+.w-80 {
+  width: 20rem;
 }
 .w-9 {
   width: 2.25rem;
@@ -677,9 +680,6 @@ tr:hover {
 }
 .w-full {
   width: 100%;
-}
-.w-80 {
-  width: 20rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -696,6 +696,9 @@ tr:hover {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -723,6 +726,9 @@ tr:hover {
 }
 .gap-8 {
   gap: 2rem;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -833,6 +839,12 @@ tr:hover {
 .pt-14 {
   padding-top: 3.5rem;
 }
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pt-40 {
+  padding-top: 10rem;
+}
 .text-center {
   text-align: center;
 }
@@ -849,13 +861,13 @@ tr:hover {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-6xl {
   font-size: 3.75rem;
@@ -876,10 +888,6 @@ tr:hover {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 .font-light {
   font-weight: 300;
@@ -1011,6 +1019,9 @@ tr:hover {
   .lg\:flex {
     display: flex;
   }
+  .lg\:grid {
+    display: grid;
+  }
   .lg\:hidden {
     display: none;
   }
@@ -1034,6 +1045,9 @@ tr:hover {
   }
   .lg\:justify-end {
     justify-content: flex-end;
+  }
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
   .lg\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
@@ -1066,5 +1080,16 @@ tr:hover {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:grid {
+    display: grid;
+  }
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .xl\:gap-10 {
+    gap: 2.5rem;
   }
 }
