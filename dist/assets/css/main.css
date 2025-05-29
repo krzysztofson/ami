@@ -697,9 +697,6 @@ tr:hover {
 .cursor-pointer {
   cursor: pointer;
 }
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 .flex-col {
   flex-direction: column;
 }
@@ -726,9 +723,6 @@ tr:hover {
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-10 {
-  gap: 2.5rem;
 }
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -827,6 +821,9 @@ tr:hover {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.pb-20 {
+  padding-bottom: 5rem;
+}
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -838,9 +835,6 @@ tr:hover {
 }
 .pt-14 {
   padding-top: 3.5rem;
-}
-.pb-20 {
-  padding-bottom: 5rem;
 }
 .pt-40 {
   padding-top: 10rem;
@@ -1019,9 +1013,6 @@ tr:hover {
   .lg\:flex {
     display: flex;
   }
-  .lg\:grid {
-    display: grid;
-  }
   .lg\:hidden {
     display: none;
   }
@@ -1045,9 +1036,6 @@ tr:hover {
   }
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-  .lg\:gap-10 {
-    gap: 2.5rem;
   }
   .lg\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
