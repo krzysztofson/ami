@@ -839,6 +839,9 @@ tr:hover {
 .pt-40 {
   padding-top: 10rem;
 }
+.pt-16 {
+  padding-top: 4rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1022,11 +1025,11 @@ tr:hover {
   .lg\:min-h-0 {
     min-height: 0px;
   }
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lg\:flex-row {
     flex-direction: row;
